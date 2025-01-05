@@ -68,15 +68,14 @@ main
     height: 200px;
 }
 
-#login  #formulario  h1 
+#login #formulario
+{
+    padding: 10px;
+}
+#formulario  h1 
 {
     text-align: center;
     color: var(--laranja-intermediario);
+    margin-bottom: 10px;
 }
 
-#login #formulario p 
-{
-    text-align: center;
-    color: var(--laranja);
-    font-size: .7em;
-}

@@ -37,6 +37,15 @@ grandes telas: acima de 1200px
         height: 100%;
         
     }
+    
+    #login #formulario p 
+    {
+        font-size: 1em;
+    }
+    #formulario h1
+    {
+        font-size: 2em;
+    }
 
 }
 
@@ -62,6 +71,17 @@ grandes telas: acima de 1200px
         float: left;
         width: 60%;
         height: 100%;
+    }
+    #login #formulario p 
+    {
+        font-size: 1em;
+        color: var(--laranja);
+        text-align: center;
+    }
+    
+    #formulario h1 
+    {
+        font-size: 2em;
     }
     
 }

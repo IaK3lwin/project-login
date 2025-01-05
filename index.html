@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="estilo/tyle.css">
         <link rel="stylesheet" href="estilo/media-queries.css">
         <title>Projeto login de um site</title>
@@ -24,7 +25,18 @@
                     <!-- FORMULÁRIO -->
                     <form action="login.php" method="post">
                         <!-- entradas de dados -->
-                        
+                        <div class="campo">
+                            <span class="material-icons">person</span>
+                            <input type="email" name="email" id="iemail" required minlength="10" placeholder="seu email aqui>
+                            <label for="iemail">email</label>
+                        </div>
+                        <div class="campo">
+                            <span class="material-icons">vpn_key</span>
+                            <input type="password" name="password" id="ipassword" required minlength="8" maxlength="20" placeholder="senha aqui">
+                            <label for="ipassword">senha</label>
+                        </div>
+                        <input type="submit" value="Entrar">
+                        <a href="esqueci.html">esqueci a senha <span class="material-icons">email</span></a>
                     </form>
                 </section>
             </section>
