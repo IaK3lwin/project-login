@@ -22,7 +22,7 @@ grandes telas: acima de 1200px
     }
     #login {
         width: 80vw;
-        
+        height: 70vh;
     }
     #login > #imagem
     {
@@ -35,8 +35,9 @@ grandes telas: acima de 1200px
         float: right;
         width: 70%;
         height: 100vh;
+        
     }
-    
+
 }
 
 @media screen and (min-width: 992px){
@@ -50,16 +51,17 @@ grandes telas: acima de 1200px
         height: 300px;
     }
     
-    #login > #imagem
+    #login  #imagem
     {
         float: right;
         width: 40%;
         height: 100vh;
     }
-    #login > #formulario
+    #login  #formulario
     {
         float: left;
         width: 60%;
         height: 100vh;
     }
+    
 }
