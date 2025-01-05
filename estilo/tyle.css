@@ -57,7 +57,8 @@ main
     background-color: var(--branco);
     border-radius: 15px;
     /* spacing */
-    
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
     overflow: hidden;
 }
 
