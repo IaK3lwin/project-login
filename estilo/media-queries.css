@@ -28,13 +28,13 @@ grandes telas: acima de 1200px
     {
         float: left;
         width: 30%;
-        height: 100vh;
+        height: 100%;
     }
     #login > #formulario
     {
         float: right;
         width: 70%;
-        height: 100vh;
+        height: 100%;
         
     }
 
@@ -55,13 +55,13 @@ grandes telas: acima de 1200px
     {
         float: right;
         width: 40%;
-        height: 100vh;
+        height: 100%;
     }
     #login  #formulario
     {
         float: left;
         width: 60%;
-        height: 100vh;
+        height: 100%;
     }
     
 }
