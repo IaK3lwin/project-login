@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* telas de tables */
+
+/* 
+
+Typical devices breakpoint
+
+pequenad telas: até 600px
+Cecular: de 600px até 768px
+Tablets: de 768px até 992px
+Destops: 992px até 1200px
+grandes telas: acima de 1200px
+
+*/
+
+@media screen and (max-width: 669px) and (max-width: 992px)
+{
+    #login {
+        width: 90vw;
+        
+    }
+}
