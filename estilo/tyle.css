@@ -15,3 +15,54 @@
     --laranja-intermediario: #F27405;
 
 }
+
+/* reset */
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    /* fazer com que o calculo do tamanho conte com a borda */
+    box-sizing: border-box;
+}
+
+html, body {
+    /* background */
+    background-color: var(--preto);
+    /* size */
+    height: 100vh;
+    width: 100vw;
+}
+
+main
+{
+    position: relative;
+    /* size */
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+#login
+{
+    /* position */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* centralizando */
+    transform: translate(-50%, -50%);
+    /* size */
+    width: 300px;
+    height: 500px;
+    /* fundo */
+    background-color: var(--branco);
+    border-radius: 15px;
+    /* spacing */
+    
+    overflow: hidden;
+}
+
+#login  #imagem {
+    background: var(--branco) url('../imgs/back-img-mobile.jpg') no-repeat left center;
+    background-size: conver;
+    height: 200px;
+}
