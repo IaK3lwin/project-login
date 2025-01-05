@@ -22,7 +22,7 @@ grandes telas: acima de 1200px
     }
     #login {
         width: 80vw;
-        height: 55vh;
+        height: clamp(300px, 55vh, 800px);
     }
     #login > #imagem
     {
