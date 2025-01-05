@@ -67,3 +67,14 @@ main
     background-size: conver;
     height: 200px;
 }
+
+#login #formulario
+{
+    text-align: center;
+    margin: 5px;
+    color: var(--laranja-intermediario);
+    p {
+        font-size: .7em;
+        color: var(--laranja);
+    }
+}
