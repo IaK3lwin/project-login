@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* variáveis perwsonalizadas */
+:root
+{
+    /* cores */
+    /*
+    --verde: #49a09d;
+    --roxo: #5f2c82;
+    */
+
+    --preto: #011F26;
+    --branco: #D2CEDC;
+    --laranja: #8C1B11;
+    --laranja-intermediario: #F27405;
+
+}
