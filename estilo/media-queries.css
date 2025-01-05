@@ -22,7 +22,7 @@ grandes telas: acima de 1200px
     }
     #login {
         width: 80vw;
-        height: 70vh;
+        height: 55vh;
     }
     #login > #imagem
     {
@@ -52,12 +52,12 @@ grandes telas: acima de 1200px
 @media screen and (min-width: 992px){
     html, body 
     {
-        background: var(--preto) linear-gradient(to right, var(--preto) 30%, var(--laranja-intermediario));
+        background: var(--preto) linear-gradient(to right, var(--preto) 45%, var(--laranja-intermediario));
     }
     #login
     {
         width: 800px;
-        height: 300px;
+        height: 355px;
     }
     
     #login  #imagem
