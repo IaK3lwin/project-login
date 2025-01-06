@@ -56,6 +56,7 @@ main
     /* fundo */
     background-color: var(--branco);
     border-radius: 15px;
+    box-shadow: 1px 5px 10px #02163377;
     /* spacing */
     transition: width .5s, height .5s;
     transition-timing-function: ease;
@@ -106,17 +107,33 @@ main
 {
     /*sizing*/
     height: 90%;
-    width: 88%;
+    width: calc(100% - 45px);
+    transform: translateY(-5px);
     /* fundo */
     background-color: transparent;
     border: none;
     /* text */
     color: var(--branco);
 }
+
+.campo input:focus-within
+{
+    border: none;
+    border-top: none;
+    background-color: rgba(255, 255, 255, 0.196);
+}
+
+.icone {
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+}
+
 .campo input::placeholder
 {
     text-align: center;
 }
+
 
 
 input[type="submit"] 

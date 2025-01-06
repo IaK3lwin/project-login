@@ -15,14 +15,14 @@ grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px)
-{
+{ /* CONFIGURAÇAO PARA TABLET */
     html, body 
     {
         background: var(--preto) linear-gradient(to left, var(--preto) 30%, var(--laranja-intermediario));
     }
     #login {
         width: 80vw;
-        height: clamp(300px, 55vh, 800px);
+        height: 360px;
     }
     #login > #imagem
     {
